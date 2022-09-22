@@ -1,9 +1,10 @@
 # LogDistributedNotifications
 
+**This no longer works because of changes in recent macOS versions**
+
 > Log [distributed notifications](https://developer.apple.com/documentation/foundation/distributednotificationcenter) on macOS
 
 Can be useful for checking if certain events are sent or investigating how some system functionality works.
-
 
 ## Usage
 
@@ -18,8 +19,3 @@ name = com.apple.HIToolbox.beginMenuTrackingNotification, object = nil, userInfo
 name = com.apple.backup.DiscoverHookClientsNotification, object = Optional(com.apple.backup.BackupObject), userInfo = nil
 name = com.apple.HIToolbox.endMenuTrackingNotification, object = nil, userInfo = nil
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
